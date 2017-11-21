@@ -50,6 +50,12 @@ function verifyDate(vDate) {
   return /^(\d{4}-\d{2}-\d{2})\s{1}(\d{2}:\d{2}:\d{2})$/.test(vDate)
 }
 
+// 获取函数参数名
+function getFunArgs(func) {
+  let args = func.toString().match(/function\s.*?\(([^)]*)\)/)[1]
+  return args.split(",").map(arg => arg.replace(/\/\*.*\*\//, "").trim()).filter(arg => arg)
+}
+
 // 导出
 export default {
   isPhone,
