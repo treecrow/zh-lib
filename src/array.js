@@ -87,6 +87,7 @@ function flatten(arr) {
   return [].concat(...arr)
 }
 
+// 导出
 export default {
   getItem,
   unique,
