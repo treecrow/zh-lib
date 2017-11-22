@@ -91,6 +91,7 @@ function flatten(arr) {
 export default {
   getItem,
   unique,
+  judgeRepeat,
   sortToLarge,
   sortToSmall,
   getMax,

@@ -56,6 +56,12 @@ function getFunArgs(func) {
   return args.split(",").map(arg => arg.replace(/\/\*.*\*\//, "").trim()).filter(arg => arg)
 }
 
+// 密码验证(6-20位数字字母混合密码)
+function isPwd(pwd){
+  var reg = /^[a-zA-Z0-9!@#$%^&*()-+=~:()><,.'?\"]{6,20}$/;
+  return reg.test(pwd);
+}
+
 // 导出
 export default {
   isPhone,
@@ -67,4 +73,6 @@ export default {
   turnToHump,
   turnToLine,
   verifyDate,
+  getFunArgs,
+  isPwd,
 }
