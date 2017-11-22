@@ -7,6 +7,7 @@ import regexp from './regexp'
 import special from './special'
 import string from './string'
 import sundry from './sundry'
+import type from './type'
 
 export default {
   array,
@@ -18,4 +19,5 @@ export default {
   special,
   string,
   sundry,
+  type,
 }
