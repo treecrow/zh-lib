@@ -26,6 +26,7 @@
 | ~       | union                | 两个数组的并集                                 |
 | ~       | removeError          | 去除数组中的错误项（清楚数组中为null、undefind、0、空字符的元素） |
 | ~       | flatten              | 将多维数组转变为一维数组                            |
+| ~       | isArrayLike          | 判断数组是否是类数组对象                            |
 | date    | 日期                   | -                                       |
 | ~       | getMonthDays         | 获取指定日期所在月份的天数                           |
 | ~       | getYearType          | 判断日期是闰年还是平年                             |
@@ -63,10 +64,10 @@
 | ~       | stripQuotes          | 去除字符串开始与结束的引号                           |
 | ~       | isSpace              | 判断字符首位是否是空字符                            |
 | sundry  | 杂项                   | -                                       |
-| ~       | -                    | -                                       |
 | type    | 类型                   | -                                       |
 | ~       | judgeTrue            | 判断是否为真                                  |
 | ~       | isEmpty              | 判断变量是否空值                                |
+| ~       | classOf              | 判断对象的基础类型                               |
 
 ## 问题列表
 

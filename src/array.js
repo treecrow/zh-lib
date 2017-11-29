@@ -87,6 +87,18 @@ function flatten(arr) {
   return [].concat(...arr)
 }
 
+// 判断数组是否是类数组对象
+function isArrayLike(o) {
+  if (o &&
+    typeof o === 'object' &&
+    isFinite(o.length) &&
+    o.length >= 0 &&
+    o.length === Math.floor(o.length) &&
+    o.length < 4294967296
+  ) return true;
+  return false;
+}
+
 // 导出
 export default {
   getItem,
@@ -104,4 +116,5 @@ export default {
   union,
   removeError,
   flatten,
+  isArrayLike,
 }
