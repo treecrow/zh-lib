@@ -1,48 +1,30 @@
 // 判断是否为真
-function judgeTrue(val) {
-  if (val === null) return false;
-  if (!isNaN(val)) return val > 0;
-  if (typeof val === 'object') return Object.keys(val).length === 0 ? false : true;
-  return !!val;
+function judgeTrue(obj) {
+  if (typeof obj !== 'object') return !!obj;
+  if (obj === null) return false;
+  return Object.keys(obj).length !== 0;
 }
 
-// 判断变量是否空值
-function isEmpty(val) {
-  switch (typeof val) {
-    case 'undefined':
-      return true;
-      break;
-    case 'string':
-      if (val.trim().length == 0) return true;
-      break;
-    case 'boolean':
-      if (!val) return true;
-      break;
-    case 'number':
-      if (0 === val) return true;
-      break;
-    case 'object':
-      if (null === val) return true;
-      if (undefined !== val.length && val.length == 0) return true;
-      for (var k in val) {
-        return false;
-      }
-      return true;
-      break;
+
+// 判断所有对象的类型
+function judgeClassType(obj) {
+  if (obj === null) return 'null';
+  if (obj !== obj) return 'NaN';
+  if (typeof obj !== 'object') return typeof obj;
+  var objectType = Object.prototype.toString.call(obj).slice(8, -1);
+  if (objectType !== 'Object') {
+    return objectType;
+  } else if (obj.constructor && typeof obj.constructor === 'function') {
+    return obj.constructor.name || '匿名构造函数';
+  } else {
+    return 'Object';
   }
-  return false;
 }
 
-// 判断对象的基础类型
-function classOf(o) {
-  if (o === null) return "Null";
-  if (o === undefined) return "Undefined";
-  return Object.prototype.toString.call(o).slice(8, -1);
-}
 
 // 导出
 export default {
   judgeTrue,
   isEmpty,
-  classOf,
+  judgeClassType,
 }

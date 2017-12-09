@@ -65,9 +65,8 @@
 | ~       | isSpace              | 判断字符首位是否是空字符                            |
 | sundry  | 杂项                   | -                                       |
 | type    | 类型                   | -                                       |
-| ~       | judgeTrue            | 判断是否为真                                  |
-| ~       | isEmpty              | 判断变量是否空值                                |
-| ~       | classOf              | 判断对象的基础类型                               |
+| ~       | judgeTrue            | 判断是否为真(空数组、空对象判断为 false)                |
+| ~       | judgeClassType       | 判断所有对象的类型                               |
 
 ## 问题列表
 
