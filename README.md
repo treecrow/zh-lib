@@ -32,6 +32,11 @@
 | ~       | getYearType          | 判断日期是闰年还是平年                             |
 | ~       | getDateDiff          | 时间转化为几天前,几小时前，几分钟前                      |
 | dom     | DOM                  | -                                       |
+| form    | 表单                   | 表单验证                                    |
+| ~       | isPhoneNum           | 验证是否是手机号                                |
+| ~       | isTelNum             | 验证是否是电话                                 |
+| ~       | isName               | 姓名验证                                    |
+| ~       | isPwd                | 密码验证(6-20位数字字母混合密码)                     |
 | math    | Math                 | -                                       |
 | ~       | getRandom            | 获得某个区间的一个随机数                            |
 | ~       | genIndentCode        | 生成指定位数数字验证码                             |
@@ -67,6 +72,9 @@
 | type    | 类型                   | -                                       |
 | ~       | judgeTrue            | 判断是否为真(空数组、空对象判断为 false)                |
 | ~       | judgeClassType       | 判断所有对象的类型                               |
+| url     | url                  | -                                       |
+| ~       | getSearchObj         | 获取url参数对象                               |
+| ~       | getParameter         | 根据key获取url查询参数                          |
 
 ## 问题列表
 
