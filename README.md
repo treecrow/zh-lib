@@ -37,6 +37,7 @@
 | ~       | isTelNum             | 验证是否是电话                                 |
 | ~       | isName               | 姓名验证                                    |
 | ~       | isPwd                | 密码验证(6-20位数字字母混合密码)                     |
+| ~       | moneyValid           | 金额输入纠正                                  |
 | math    | Math                 | -                                       |
 | ~       | getRandom            | 获得某个区间的一个随机数                            |
 | ~       | genIndentCode        | 生成指定位数数字验证码                             |
