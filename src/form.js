@@ -22,6 +22,16 @@ function isPwd(pwd) {
   return reg.test(pwd);
 }
 
+// 金钱格式化
+function moneyFormat(money, digit) {
+  digit = digit || 2;
+  var tens = Math.pow(10, digit);
+  var money = (Math.round(money * tens) / tens).toFixed(digit);
+  var moneyArr = money.split('.');
+  moneyArr[0].replace(/\B((?=\d{3})+(?!\d))/g, ',');
+  return moneyArr.join('.');
+}
+
 // 金额输入纠正
 function moneyValid(id) {
   function moneyFormat(str) {
