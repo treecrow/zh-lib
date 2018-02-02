@@ -75,8 +75,11 @@
 | ~       | judgeTrue            | 判断是否为真(空数组、空对象判断为 false)                |
 | ~       | judgeClassType       | 判断所有对象的类型                               |
 | url     | url                  | -                                       |
-| ~       | getSearchObj         | 获取url参数对象                               |
-| ~       | getParameter         | 根据key获取url查询参数                          |
+| ~       | getUrlParams         | 获取url参数对象                               |
+| ~       | getUrlParam          | 根据key获取url查询参数                          |
+| ~       | getHost              | 获取域名主机                                  |
+| ~       | isUrl                | 判断是否是url                                |
+| ~       | getAbsoluteUrl       | 获取链接的绝对地址                               |
 
 ## 问题列表
 
