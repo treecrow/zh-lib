@@ -70,6 +70,7 @@
 | ~       | isSingleChar         | 验证是不是单个字符                                                 |
 | ~       | stripQuotes          | 去除字符串开始与结束的引号                                         |
 | ~       | isSpace              | 判断字符首位是否是空字符                                           |
+| ~       | codePointLength      | 正确返回字符长度（兼容汉字）                                       |
 | sundry  | 杂项                 | -                                                                  |
 | ~       | getGlobal            | 获取顶层对象                                                       |
 | type    | 类型                 | -                                                                  |
