@@ -4,8 +4,6 @@
 
 ## 相关文档
 
-* [再见，babel-preset-2015](https://zhuanlan.zhihu.com/p/29506685)
-
 ## 方法列表
 
 | 文件    | 方法                 | more                                                               |
@@ -27,6 +25,8 @@
 | ~       | removeError          | 去除数组中的错误项（清楚数组中为 null、undefind、0、空字符的元素） |
 | ~       | flatten              | 将多维数组转变为一维数组                                           |
 | ~       | isArrayLike          | 判断数组是否是类数组对象                                           |
+| cookie  | cookie               | -                                                                  |
+| ~       | getCookie            | 根据 cookie 名获取 cookie 值                                       |
 | date    | 日期                 | -                                                                  |
 | ~       | getMonthDays         | 获取指定日期所在月份的天数                                         |
 | ~       | getYearType          | 判断日期是闰年还是平年                                             |
@@ -62,6 +62,7 @@
 | ~       | verifyDate           | 验证日期格式                                                       |
 | ~       | getFunArgs           | 获取函数参数名                                                     |
 | ~       | isPwd                | 密码验证(6-20 位数字字母混合密码)                                  |
+| ~       | isVertifyCode        | 验证是否是 6 位数字验证码                                          |
 | ~       | isHtml               | 验证是否是 html 字符串                                             |
 | special | 特种函数             | -                                                                  |
 | ~       | composFn             | 组合多个函数(第一个函数运行的结果传给第二个)                       |

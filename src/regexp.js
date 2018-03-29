@@ -65,6 +65,11 @@ function isPwd(pwd) {
   return reg.test(pwd);
 }
 
+// 验证是否是6位数字验证码
+function isVertifyCode(code) {
+  return /^\d{6}$/.test(code);
+}
+
 // 验证是否是html字符串
 function isHtml(html) {
   return /^(?:\s*(<[\w\W]+>)[^>]*)$/.test(html);
@@ -83,5 +88,6 @@ export default {
   verifyDate,
   getFunArgs,
   isPwd,
+  isVertifyCode,
   isHtml
 };
