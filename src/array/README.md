@@ -13,6 +13,7 @@
 | getRandom    | 从数组中随机取出几个元素                                           |
 | turnMatrix   | 反转矩阵数组                                                       |
 | intersection | 两个数组的交集                                                     |
+| isArray      | 判断是否是数组                                                     |
 | difference   | 两个数组的补集                                                     |
 | union        | 两个数组的并集                                                     |
 | removeError  | 去除数组中的错误项（清楚数组中为 null、undefind、0、空字符的元素） |
