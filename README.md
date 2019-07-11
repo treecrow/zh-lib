@@ -1,3 +1,3 @@
-# zh-lib
+# dtc-lib
 
 > 个人 js 工具库.
