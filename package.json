@@ -1,17 +1,20 @@
 {
-  "name": "dry-lib",
+  "name": "@treecrow/tool-lib",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "keyword": [
+    "dry",
+    "tool",
+    "library"
+  ],
+  "description": "JS tool library for personal use",
+  "author": "treecrow <drytreecrow@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "babel-preset-env": "^7.0.0-beta.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treecrow/dry-lib.git"
   },
-  "dependencies": {
-    "babel-polyfill": "^7.0.0-beta.3"
-  }
+  "bugs": {
+    "url": "https://github.com/treecrow/dry-lib/issues"
+  },
+  "homepage": "https://github.com/treecrow/dry-lib#readme"
 }

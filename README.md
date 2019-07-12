@@ -1,3 +1,3 @@
-# dry-lib
+# dry-tool-lib
 
-> 个人 js 工具库.
+> 个人使用的 js 工具库
