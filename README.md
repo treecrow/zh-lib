@@ -1,3 +1,3 @@
-# dry-tool-lib
+# @treecrow/tool-lib
 
 > 个人使用的 js 工具库
