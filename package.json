@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/treecrow/dry-lib/issues"
   },
-  "homepage": "https://github.com/treecrow/dry-lib#readme"
+  "homepage": "https://github.com/treecrow/dry-lib#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4"
+  }
 }

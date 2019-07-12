@@ -1,7 +1,13 @@
-# OS or Editor folders
-.DS_Store
+# Editor directories and files
 .idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# npm relative
-package-lock.json
+.DS_Store
 node_modules
+package-lock.json
+dist
