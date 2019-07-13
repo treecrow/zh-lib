@@ -1,15 +1,7 @@
-import isName from "./isName.js";
-import isPhoneNum from "./isPhoneNum.js";
-import isPwd from "./isPwd.js";
-import isTelNum from "./isTelNum.js";
-import moneyFormat from "./moneyFormat.js";
-import moneyValid from "./moneyValid.js";
+import captcha_create from "./captcha_create";
+import money_format from "./money_format";
 
 export default {
-  isName,
-  isPhoneNum,
-  isPwd,
-  isTelNum,
-  moneyFormat,
-  moneyValid
+  captcha_create,
+  money_format
 };

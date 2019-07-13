@@ -3,7 +3,7 @@ export default function(obj) {
   if (obj === null) return "null";
   if (obj !== obj) return "NaN";
   if (typeof obj !== "object") return typeof obj;
-  var objectType = Object.prototype.toString.call(obj).slice(8, -1);
+  const objectType = Object.prototype.toString.call(obj).slice(8, -1);
   if (objectType !== "Object") {
     return objectType;
   } else if (obj.constructor && typeof obj.constructor === "function") {

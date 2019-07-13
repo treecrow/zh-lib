@@ -1,13 +1,9 @@
-import factorial from "./factorial.js";
-import genIndentCode from "./genIndentCode.js";
-import getAngle from "./getAngle.js";
-import getRandom from "./getRandom.js";
-import reduceFraction from "./reduceFraction.js";
+import angle_by_point from "./angle_by_point";
+import factorial from "./factorial";
+import fraction_reduce from "./fraction_reduce";
 
 export default {
+  angle_by_point,
   factorial,
-  genIndentCode,
-  getAngle,
-  getRandom,
-  reduceFraction
+  fraction_reduce
 };
