@@ -1,12 +1,15 @@
 {
   "name": "@treecrow/tool-lib",
   "version": "1.0.0",
+  "description": "JS tool library for personal use",
   "keyword": [
     "dry",
     "tool",
     "library"
   ],
-  "description": "JS tool library for personal use",
+  "scripts": {
+    "build": "node script/build.js"
+  },
   "author": "treecrow <drytreecrow@gmail.com>",
   "license": "ISC",
   "repository": {
@@ -20,6 +23,7 @@
   "devDependencies": {
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4"
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6"
   }
 }
