@@ -2,30 +2,90 @@
 
 > 个人使用的 js 工具库
 
-## 工具库支持的特性
-
-- 可分块引入，也可整体引入
-- 可分块打包成压缩文件，直接在 html 文件中使用
-- 库开发者美滋滋的写 ES6+的代码；
-- 库使用者能够运行在浏览器（ie6-11）和 node（0.12-10）中
-- 库使用者能够使用 AMD 或 CMD 模块方案
-- 库使用者能够使用 webpack、rollup 或 fis 等预编译工具
-
 ## 项目文档
 
 - [CHANGELOG](./docs/CHANGELOG.md)
 
-## 外部文档
+## tool list
 
-| doc                                                                                         | more                                   |
-| ------------------------------------------------------------------------------------------- | -------------------------------------- |
-| [打造自己的 JavaScript 武器库](https://zhuanlan.zhihu.com/p/31229740)                       | 很多文件暴露在项目根目录下，看着很混乱 |
-| [8102 年如何写一个现代的 JavaScript 库](https://zhuanlan.zhihu.com/p/46332833)              | -                                      |
-| [如何开发一个基于 TypeScript 的工具库并自动生成文档](https://zhuanlan.zhihu.com/p/72352437) | -                                      |
-
-## todo
-
-- 代码测试（单元测试）
-- 可持续集成
-- typeScript
-- 自动生成文档
+| class   | tool                 | more |
+| ------- | -------------------- | ---- |
+| array   | `数组`               | -    |
+| ^       | difference           | -    |
+| ^       | disOrder             | -    |
+| ^       | flatten              | -    |
+| ^       | getItem              | -    |
+| ^       | getMax               | -    |
+| ^       | getMin               | -    |
+| ^       | getRandom            | -    |
+| ^       | index                | -    |
+| ^       | intersection         | -    |
+| ^       | isArray              | -    |
+| ^       | isArrayLike          | -    |
+| ^       | judgeRepeat          | -    |
+| ^       | removeError          | -    |
+| ^       | sortToLarge          | -    |
+| ^       | sortToSmall          | -    |
+| ^       | turnMatrix           | -    |
+| ^       | union                | -    |
+| ^       | unique               | -    |
+| date    | `时间日期`           | -    |
+| ^       | format               | -    |
+| ^       | getDateDiff          | -    |
+| ^       | getDayList           | -    |
+| ^       | getMonthDays         | -    |
+| ^       | getYearType          | -    |
+| form    | `表单`               | -    |
+| ^       | isName               | -    |
+| ^       | isPhoneNum           | -    |
+| ^       | isPwd                | -    |
+| ^       | isTelNum             | -    |
+| ^       | moneyFormat          | -    |
+| ^       | moneyValid           | -    |
+| math    | `数学`               | -    |
+| ^       | factorial            | -    |
+| ^       | genIndentCode        | -    |
+| ^       | getAngle             | -    |
+| ^       | getRandom            | -    |
+| ^       | reduceFraction       | -    |
+| object  | `对象`               | -    |
+| ^       | esCopyesCopy         | -    |
+| ^       | hasPrototypeProperty | -    |
+| ^       | jsonCopy             | -    |
+| ^       | recursionCopy        | -    |
+| regexp  | `正则`               | -    |
+| ^       | etFileExtension      | -    |
+| ^       | getCharNum           | -    |
+| ^       | getFunArgs           | -    |
+| ^       | isEmail              | -    |
+| ^       | isHtml               | -    |
+| ^       | isPhone              | -    |
+| ^       | isPwd                | -    |
+| ^       | isVertifyCode        | -    |
+| ^       | onlyChinese          | -    |
+| ^       | turnToHump           | -    |
+| ^       | turnToLine           | -    |
+| ^       | upperStart           | -    |
+| ^       | verifyDate           | -    |
+| str     | `字符串`             | -    |
+| ^       | codePointLength      | -    |
+| ^       | index                | -    |
+| ^       | isSingleChar         | -    |
+| ^       | isSpace              | -    |
+| ^       | stripQuotes          | -    |
+| type    | `类型`               | -    |
+| ^       | judgeClassType       | -    |
+| ^       | judgeTrue            | -    |
+| url     | `url`                | -    |
+| ^       | getAbsoluteUrl       | -    |
+| ^       | getHost              | -    |
+| ^       | getUrlParam          | -    |
+| ^       | getUrlParams         | -    |
+| ^       | isUrl                | -    |
+| special | `特殊`               | -    |
+| ^       | composFn             | -    |
+| ^       | deepFreeze           | -    |
+| ^       | once                 | -    |
+| others  | `其他`               | -    |
+| ^       | getCookie            | -    |
+| ^       | getGlobal            | -    |
