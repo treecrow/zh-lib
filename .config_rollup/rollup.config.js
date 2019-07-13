@@ -1,7 +1,6 @@
 // rollup.config.js
 const { banner } = require("./rollup.js");
-const typescript = require("rollup-plugin-typescript2");
-
+const { compiler } = require("./rollup.js");
 module.exports = {
   input: "src/index.js",
   output: {
@@ -11,12 +10,5 @@ module.exports = {
     // legacy: true,
     banner
   },
-  plugins: [
-    typescript({
-      tsconfigOverride: {
-        compilerOptions: { declaration: true, module: "ES2015" }
-      },
-      useTsconfigDeclarationDir: true
-    })
-  ]
+  plugins: [compiler]
 };

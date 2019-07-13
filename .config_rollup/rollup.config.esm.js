@@ -1,4 +1,4 @@
-const { babelCompiler, banner } = require("./rollup.js");
+const { compiler, banner } = require("./rollup.js");
 
 module.exports = {
   input: "src/index.js",
@@ -9,5 +9,5 @@ module.exports = {
     // legacy: true,
     banner
   },
-  plugins: [babelCompiler]
+  plugins: [compiler]
 };

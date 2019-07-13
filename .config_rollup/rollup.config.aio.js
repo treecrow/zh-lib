@@ -1,7 +1,7 @@
 const nodeResolve = require("rollup-plugin-node-resolve");
 const commonjs = require("rollup-plugin-commonjs");
 const { uglify } = require("rollup-plugin-uglify");
-const { babelCompiler, libName, banner } = require("./rollup.js");
+const { compiler, libName, banner } = require("./rollup.js");
 
 // 开发环境配置
 const rollupConfig = {
@@ -22,7 +22,7 @@ const rollupConfig = {
     commonjs({
       include: "node_modules/**"
     }),
-    babelCompiler
+    compiler
   ]
 };
 // 生产环境配置
