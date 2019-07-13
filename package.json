@@ -8,7 +8,12 @@
     "library"
   ],
   "scripts": {
-    "build": "node script/build.js"
+    "clean": "rimraf ./dist",
+    "build:aio": "rollup -c .config_rollup/rollup.config.aio.js",
+    "build:aio.min": "cross-env NODE_ENV=production npm run build:aio",
+    "build:esm": "rollup -c .config_rollup/rollup.config.esm.js",
+    "build:self": "rollup -c .config_rollup/rollup.config.js",
+    "build": "npm run clean && npm run build:aio & npm run build:aio.min & npm run build:esm & npm run build:self"
   },
   "author": "treecrow <drytreecrow@gmail.com>",
   "license": "ISC",
@@ -20,10 +25,22 @@
     "url": "https://github.com/treecrow/dry-lib/issues"
   },
   "homepage": "https://github.com/treecrow/dry-lib#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.5.4"
+  },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.4",
+    "@babel/plugin-transform-runtime": "^7.5.0",
     "@babel/preset-env": "^7.5.4",
-    "babel-loader": "^8.0.6"
+    "cross-env": "^5.2.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.16.7",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.22.0",
+    "rollup-plugin-uglify": "^6.0.2",
+    "typescript": "^3.5.3"
   }
 }
