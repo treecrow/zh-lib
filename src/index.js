@@ -5,7 +5,7 @@ import math from "./math/index.js";
 import object from "./object/index.js";
 import regexp from "./regexp/index.js";
 import special from "./special/index.js";
-import string from "./string/index.js";
+import str from "./str/index.js";
 import type from "./type/index.js";
 import url from "./url/index.js";
 
@@ -18,7 +18,7 @@ export default {
   object,
   regexp,
   special,
-  string,
+  str,
   type,
   url
 };
