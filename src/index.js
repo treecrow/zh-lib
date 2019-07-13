@@ -1,4 +1,4 @@
-import array from "./array/index.js";
+import arr from "./arr/index.js";
 import date from "./date/index.js";
 import form from "./form/index.js";
 import math from "./math/index.js";
@@ -11,7 +11,7 @@ import url from "./url/index.js";
 
 export default {
   name: "toolLib",
-  array,
+  arr,
   date,
   form,
   math,
