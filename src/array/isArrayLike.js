@@ -1,4 +1,4 @@
-// 判断数组是否是类数组对象
+/** 判断数组是否是类数组对象 */
 export default function(o) {
   if (
     o &&

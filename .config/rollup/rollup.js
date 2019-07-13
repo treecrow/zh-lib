@@ -1,6 +1,6 @@
 const babel = require("rollup-plugin-babel");
 const typescript = require("rollup-plugin-typescript2");
-const { name, version } = require("../package.json");
+const { name, version } = require("../../package.json");
 
 const tsCompiler = typescript({
   tsconfigOverride: { compilerOptions: { module: "ES2015" } }

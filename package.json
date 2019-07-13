@@ -9,10 +9,10 @@
   ],
   "scripts": {
     "clean": "rimraf ./dist",
-    "build:aio": "rollup -c .config_rollup/rollup.config.aio.js",
+    "build:aio": "rollup -c .config/rollup/rollup.config.aio.js",
     "build:aio.min": "cross-env NODE_ENV=production npm run build:aio",
-    "build:esm": "rollup -c .config_rollup/rollup.config.esm.js",
-    "build:self": "rollup -c .config_rollup/rollup.config.js",
+    "build:esm": "rollup -c .config/rollup/rollup.config.esm.js",
+    "build:self": "rollup -c .config/rollup/rollup.config.js",
     "build": "npm run clean && npm run build:aio & npm run build:aio.min & npm run build:esm & npm run build:self"
   },
   "author": "treecrow <drytreecrow@gmail.com>",

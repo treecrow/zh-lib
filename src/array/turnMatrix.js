@@ -1,4 +1,4 @@
-// 反转矩阵数组
+/** 反转矩阵数组 */
 export default function(arr) {
   var ret = [];
   var i, j;
