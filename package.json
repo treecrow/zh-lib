@@ -17,6 +17,7 @@
   },
   "author": "treecrow <drytreecrow@gmail.com>",
   "license": "ISC",
+  "main": "src/index.js",
   "files": [
     "src",
     "docs"
