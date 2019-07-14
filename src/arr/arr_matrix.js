@@ -1,5 +1,5 @@
-/** 反转矩阵数组 */
-export default function(arr) {
+// 反转矩阵数组
+function matrixReverse(arr) {
   var ret = [];
   var i, j;
   if (arr.length == 0) {
@@ -17,4 +17,15 @@ export default function(arr) {
     }
   }
   return ret;
+}
+
+// 数组矩阵
+export default function(arr, flag) {
+  let result;
+  switch (flag) {
+    case "reverse":
+      result = matrixReverse(arr);
+      break;
+  }
+  return result;
 }
