@@ -1,13 +1,9 @@
-import getAbsoluteUrl from "./getAbsoluteUrl.js";
-import getHost from "./getHost.js";
-import getUrlParam from "./getUrlParam.js";
-import getUrlParams from "./getUrlParams.js";
-import isUrl from "./isUrl.js";
+import absolute_url from "./absolute_url";
+import url_host from "./url_host";
+import url_param from "./url_param";
 
 export default {
-  getAbsoluteUrl,
-  getHost,
-  getUrlParam,
-  getUrlParams,
-  isUrl
+  absolute_url,
+  url_host,
+  url_param
 };
