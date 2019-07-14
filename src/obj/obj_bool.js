@@ -1,4 +1,4 @@
-// 判断是否为真
+// 对象真值判断
 export default function(obj) {
   if (typeof obj !== "object") return !!obj;
   if (obj === null) return false;

@@ -1,4 +1,4 @@
-// 判断所有对象的类型
+// 对象类型判断
 export default function(obj) {
   if (obj === null) return "null";
   if (obj !== obj) return "NaN";
