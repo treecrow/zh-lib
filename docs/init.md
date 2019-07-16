@@ -7,6 +7,7 @@
 | [打造自己的 JavaScript 武器库](https://zhuanlan.zhihu.com/p/31229740)                       | 很多文件暴露在项目根目录下，看着很混乱 |
 | [8102 年如何写一个现代的 JavaScript 库](https://zhuanlan.zhihu.com/p/46332833)              | -                                      |
 | [如何开发一个基于 TypeScript 的工具库并自动生成文档](https://zhuanlan.zhihu.com/p/72352437) | -                                      |
+| [开发更好用的 JavaScript 模块](https://zhuanlan.zhihu.com/p/31499310)                       | -                                      |
 
 ## todo
 
